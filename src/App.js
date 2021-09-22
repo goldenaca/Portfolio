@@ -1,20 +1,21 @@
 import "./App.css";
 import React from "react";
-import aboutImage from "./images/About.jpg";
-/* import skillsImage from "./images/Skills.jpg";
-import projectsImage from "./images/Projects.jpg";
-import vontactImage from "./images/Contact.jpg"; */
+import About from "./screens/About";
+import Skills from "./screens/Skills";
+import Projects from "./screens/Projects";
+import Contact from "./screens/Contact";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-  const [backgroundImage, setBackgroundImage] = React.useState(aboutImage);
-  const backgroundHanlder = () => {
-    return { background: `url(${backgroundImage})` };
-  };
-
   return (
-    <div className="app-container" style={backgroundHanlder()}>
-      <p> el colo colo </p>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={About} />
+        <Route path="/skills" exact component={Skills} />
+        <Route path="/projects" exact component={Projects} />
+        <Route path="/contact" exact component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 
