@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-container {
@@ -50,4 +51,8 @@
   letter-spacing: 3px;
   color: white;
   border-bottom: 2px solid white;
+}
+
+.link-tag {
+  text-decoration: none;
 }
