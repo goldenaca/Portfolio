@@ -16,7 +16,7 @@ function About() {
     <div className="app-container" style={backgroundImage}>
       <div className="triangle-decoration"></div>
       <div className="main-container">
-        <Nav color={"about"} />
+        <Nav />
         <main className="info-container">
           <p className="title-about"> ABOUT ME </p>
           <p className="text">

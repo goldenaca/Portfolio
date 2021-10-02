@@ -1,0 +1,55 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.input-container {
+  display: flex;
+}
+
+.form-input {
+  font-size: 15px;
+  background: rgb(32, 32, 32);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 59, 85);
+  padding: 10px 5px;
+  margin: 15px;
+  width: 100%;
+  color: aliceblue;
+}
+
+.input-text {
+  font-size: 15px;
+  padding: 5px;
+  background: rgb(32, 32, 32);
+  margin: 10px 15px;
+  height: 100px;
+  overflow: auto;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 59, 85);
+  color: aliceblue;
+}
+
+.submit-button {
+  letter-spacing: 1px;
+  background: aliceblue;
+  width: 200px;
+  border: none;
+  font-size: 18px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.submit-button:hover {
+  transition: 0.3s;
+  letter-spacing: 2px;
+  color: rgb(30, 30, 30);
+  background: rgb(255, 59, 85);
+}

@@ -1,0 +1,41 @@
+.contact-info-container {
+  margin-top: 100px;
+  color: aliceblue;
+}
+
+.contact-title {
+  padding-top: 20px;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-left: 60px;
+  color: rgb(255, 59, 85);
+}
+
+.contact-list {
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+.contact-list li {
+  list-style: none;
+  margin-bottom: 30px;
+  display: flex;
+}
+.contact-list p {
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 30px;
+  letter-spacing: 1px;
+}
+.contact-list a {
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 30px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.contact-list i {
+  font-size: 32px;
+}

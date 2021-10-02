@@ -16,9 +16,9 @@ function About() {
     <div className="app-container" style={backgroundImage}>
       <div className="triangle-decoration"></div>
       <div className="main-container">
-        <Nav color={"skills"} />
+        <Nav />
         <main className="info-container">
-          <p className="skills-title"> All ABOUT MY SKILLS</p>
+          <p className="skills-title"> ALL ABOUT MY SKILLS</p>
           <div className="text-skills">
             I consider myself a very curious person who finds it easy to learn,
             and I always seek to optimize my way of working. I am very committed
