@@ -3,17 +3,10 @@ import "./form.css";
 import emailjs from "emailjs-com";
 
 function Form() {
-  /* const [formData, setFormData] = React.useState({
-    name: "",
-    email: "",
-    text: "",
-  }); */
-
   const form = React.useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.dir(form.current);
     emailjs
       .sendForm(
         "service_j1wtlrp",
@@ -29,22 +22,9 @@ function Form() {
           console.log(error.text);
         }
       );
+    form.current.reset();
   };
 
-  /*   function formNameHandler(e) {
-    setFormData({ ...formData, name: e.target.value });
-  }
-  function formEmailHandler(e) {
-    setFormData({ ...formData, email: e.target.value });
-  }
-  function formTextHandler(e) {
-    setFormData({ ...formData, text: e.target.value });
-  }
-
-  function submitFormHandler(e) {
-    e.preventDefault();
-    console.log(formData);
-  } */
   return (
     <div className="App">
       <form ref={form} className="form-container" onSubmit={sendEmail}>

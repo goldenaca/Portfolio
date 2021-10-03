@@ -3,7 +3,6 @@ import "./contact.css";
 import contactImage from "../../images/Contact.jpg";
 import Nav from "../../components/Nav";
 import Form from "../../components/Form";
-import emailjs from "emailjs-com";
 
 function About() {
   const backgroundImage = {
