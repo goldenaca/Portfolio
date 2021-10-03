@@ -45,10 +45,10 @@ function About() {
                 <p className="card-text">
                   I made this application to be able to watch videos
                   synchronized with another person. The application is developed
-                  in react, and for the server I use Express and Socket io to
+                  in react and for the server I use Express and Socket io to
                   broadcast the events of the player on every room. To deploy
-                  the app I use Express to serve the statics file from the
-                  Reeact build.
+                  the app I use Express to serve the statics file from the React
+                  build.
                 </p>
               </a>
             </div>

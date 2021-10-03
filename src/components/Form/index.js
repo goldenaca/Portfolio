@@ -1,15 +1,37 @@
-import { specialChars } from "@testing-library/user-event";
 import React from "react";
 import "./form.css";
+import emailjs from "emailjs-com";
 
 function Form() {
-  const [formData, setFormData] = React.useState({
+  /* const [formData, setFormData] = React.useState({
     name: "",
     email: "",
     text: "",
-  });
+  }); */
 
-  function formNameHandler(e) {
+  const form = React.useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.dir(form.current);
+    emailjs
+      .sendForm(
+        "service_j1wtlrp",
+        "template_9j553o3",
+        form.current,
+        "user_s134Jyqg1siiTJaLZZUQ7"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  /*   function formNameHandler(e) {
     setFormData({ ...formData, name: e.target.value });
   }
   function formEmailHandler(e) {
@@ -22,35 +44,32 @@ function Form() {
   function submitFormHandler(e) {
     e.preventDefault();
     console.log(formData);
-  }
+  } */
   return (
     <div className="App">
-      <form className="form-container" onSubmit={submitFormHandler}>
+      <form ref={form} className="form-container" onSubmit={sendEmail}>
         <div className="input-container">
           <input
-            onChange={formNameHandler}
-            value={formData.name}
-            placeholder="Name"
-            type=""
+            placeholder="Yout name.."
+            type="text"
             className="form-input"
+            name="name"
           ></input>
           <input
-            onChange={formEmailHandler}
-            value={formData.email}
             type="email"
             className="form-input"
-            placeholder="Email"
+            placeholder="Your email.."
+            name="email"
           ></input>
         </div>
         <textarea
-          onChange={formTextHandler}
-          value={formData.text}
           type="textarea"
           className="input-text"
           placeholder="Message.."
+          name="message"
         ></textarea>
-        <button className="submit-button" type="submit">
-          Enviar
+        <button className="submit-button" type="submit" value="Send">
+          Send Message
         </button>
       </form>
     </div>
