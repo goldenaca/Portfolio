@@ -9,15 +9,10 @@ function Nav() {
       <ul className="list">
         <Link className="link-tag" to="/">
           <li
-            style={
-              location === "/"
-                ? {
-                    color: "rgba(80,180,255)",
-                  }
-                : null
-            }
             className={
-              location === "/" ? "list-element" : "list-element about-hover"
+              location === "/"
+                ? "list-element on-about"
+                : "list-element about-hover"
             }
           >
             About
@@ -25,12 +20,9 @@ function Nav() {
         </Link>
         <Link className="link-tag" to="/skills">
           <li
-            style={
-              location === "/skills" ? { color: "rgb(255, 140, 85)" } : null
-            }
             className={
               location === "/skills"
-                ? "list-element"
+                ? "list-element on-skills"
                 : "list-element skills-hover"
             }
           >
@@ -39,12 +31,9 @@ function Nav() {
         </Link>
         <Link className="link-tag" to="/projects">
           <li
-            style={
-              location === "/projects" ? { color: "rgb(139, 97, 255)" } : null
-            }
             className={
               location === "/projects"
-                ? "list-element"
+                ? "list-element on-projects"
                 : "list-element projects-hover"
             }
           >
@@ -53,12 +42,9 @@ function Nav() {
         </Link>
         <Link className="link-tag" to="/contact">
           <li
-            style={
-              location === "/contact" ? { color: "rgb(255, 59, 85)" } : null
-            }
             className={
               location === "/contact"
-                ? "list-element"
+                ? "list-element on-contact"
                 : "list-element contact-hover"
             }
           >

@@ -24,7 +24,7 @@ function About() {
           <div className="skills-title-container">
             <p>MOST RELEVANT PROJECTS</p>
             <a href="https://github.com/goldenaca?tab=repositories">
-              <i class="fab fa-github-square git-icon"></i>{" "}
+              <i class="fab fa-github-square git-icon"></i>
             </a>
           </div>
           <div className="projects-text">

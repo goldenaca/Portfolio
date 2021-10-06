@@ -8,6 +8,7 @@
   font-size: 30px;
   letter-spacing: 2px;
   line-height: 60px;
+  color: rgb(161, 126, 255);
 }
 .skills-title-container a {
   color: aliceblue;
@@ -22,11 +23,11 @@
 
 .git-icon:hover {
   transition: 0.3s;
-  box-shadow: 0 0 60px rgba(139, 97, 255);
+  color: rgba(139, 97, 255);
 }
 
 .git {
-  color: rgb(139, 97, 255);
+  color: rgb(161, 126, 255);
 }
 
 .projects-text {

@@ -3,16 +3,7 @@
   color: rgb(240, 240, 240);
 }
 
-.title-about {
-  width: 100%;
-  font-size: 32px;
-  letter-spacing: 2px;
-  text-align: right;
-  margin-bottom: 15px;
-  padding-right: 60px;
-  color: rgb(85, 190, 255);
-}
-.title-currently {
+.title {
   color: rgb(85, 190, 255);
   padding-left: 60px;
   margin-bottom: 15px;
@@ -34,10 +25,8 @@
 
 .a-tag {
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   cursor: pointer;
+  display: flex;
 }
 
 .about-icon-description {
@@ -51,9 +40,22 @@
   text-align: center;
   margin-bottom: 15px;
   font-size: 45px;
+  transition: 0.2s;
+  margin: auto;
+}
+.about-icons:hover {
+  transition: 0.2s;
+  font-size: 52px;
 }
 
 .color-blue {
   color: rgb(85, 190, 255);
   letter-spacing: 2px;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
 }

@@ -7,21 +7,12 @@ function Form() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_j1wtlrp",
-        "template_9j553o3",
-        form.current,
-        "user_s134Jyqg1siiTJaLZZUQ7"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_j1wtlrp",
+      "template_9j553o3",
+      form.current,
+      "user_s134Jyqg1siiTJaLZZUQ7"
+    );
     form.current.reset();
   };
 

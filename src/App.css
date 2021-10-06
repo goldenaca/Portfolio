@@ -45,7 +45,6 @@
 
 .about-hover:hover {
   transition: 0.3s;
-  letter-spacing: 3px;
   color: rgb(40, 40, 40);
   box-shadow: 0px 0px 10px rgba(80, 180, 255), 0 0 40px rgba(80, 180, 255),
     0 0 80px rgba(80, 180, 255);
@@ -53,7 +52,6 @@
 }
 .skills-hover:hover {
   transition: 0.3s;
-  letter-spacing: 3px;
   color: rgb(40, 40, 40);
   box-shadow: 0px 0px 10px rgb(255, 140, 85), 0 0 40px rgb(255, 140, 85),
     0 0 80px rgb(255, 140, 85);
@@ -61,7 +59,6 @@
 }
 .projects-hover:hover {
   transition: 0.3s;
-  letter-spacing: 3px;
   color: rgb(40, 40, 40);
   box-shadow: 0px 0px 10px rgba(139, 97, 255), 0 0 40px rgba(139, 97, 255),
     0 0 80px rgba(139, 97, 255);
@@ -69,7 +66,6 @@
 }
 .contact-hover:hover {
   transition: 0.3s;
-  letter-spacing: 3px;
   color: rgb(40, 40, 40);
   box-shadow: 0px 0px 10px rgb(255, 59, 85), 0 0 40px rgb(255, 59, 85),
     0 0 80px rgb(255, 59, 85);
@@ -78,4 +74,32 @@
 
 .link-tag {
   text-decoration: none;
+}
+
+.on-about {
+  color: rgb(40, 40, 40);
+  box-shadow: 0px 0px 10px rgba(80, 180, 255), 0 0 40px rgba(80, 180, 255),
+    0 0 80px rgba(80, 180, 255);
+  background: rgba(80, 180, 255);
+}
+
+.on-skills {
+  color: rgb(40, 40, 40);
+  box-shadow: 0px 0px 10px rgb(255, 140, 85), 0 0 40px rgb(255, 140, 85),
+    0 0 80px rgb(255, 140, 85);
+  background: rgb(255, 140, 85);
+}
+
+.on-projects {
+  color: rgb(40, 40, 40);
+  box-shadow: 0px 0px 10px rgba(139, 97, 255), 0 0 40px rgba(139, 97, 255),
+    0 0 80px rgba(139, 97, 255);
+  background: rgb(139, 97, 255);
+}
+
+.on-contact {
+  color: rgb(40, 40, 40);
+  box-shadow: 0px 0px 10px rgb(255, 59, 85), 0 0 40px rgb(255, 59, 85),
+    0 0 80px rgb(255, 59, 85);
+  background: rgb(255, 59, 85);
 }
