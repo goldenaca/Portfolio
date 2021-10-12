@@ -51,7 +51,7 @@ function About() {
             <div className="icon-box">
               <a
                 className="a-tag"
-                href="https://drive.google.com/file/d/1YdARpXxumjwY1p8x7FbyLCZBs1iWDpqq/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hmMa1M4L7HWDldCXNKS4CnvOyRoeYGE2/view?usp=sharing"
               >
                 <i class="fas fa-file-code about-icons"></i>
               </a>
