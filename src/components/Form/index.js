@@ -7,6 +7,12 @@ function Form() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    if (
+      form.current[0].value === "" ||
+      form.current[1].value === "" ||
+      form.current[2].value === ""
+    )
+      return;
     emailjs.sendForm(
       "service_j1wtlrp",
       "template_9j553o3",
