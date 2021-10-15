@@ -68,7 +68,7 @@ function About() {
             <div className="blur-layer-axie">
               <a href="/projects" className="card">
                 <img className="card-image" src={comingSoonImage} alt=""></img>
-                <p className="card-text"></p>
+                <p className="card-text"> Cooming soon</p>
               </a>
             </div>
           </div>

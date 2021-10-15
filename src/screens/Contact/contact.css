@@ -39,3 +39,23 @@
 .contact-list i {
   font-size: 32px;
 }
+
+@media (max-width: 900px) {
+  .contact-title {
+    margin: 0;
+    text-align: center;
+  }
+  .contact-list {
+    margin: 0;
+  }
+  .contact-list a {
+    font-size: 18px;
+  }
+  .contact-list li {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-list {
+    margin-top: 20px;
+  }
+}

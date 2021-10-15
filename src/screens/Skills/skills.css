@@ -11,7 +11,7 @@
 }
 
 .skills-column {
-  margin: 50px 50px;
+  width: 25%;
 }
 
 .skills-column h3 {
@@ -33,4 +33,26 @@
   font-size: 30px;
   margin-bottom: 15px;
   padding-left: 60px;
+}
+
+@media (max-width: 900px) {
+  .skills-title {
+    padding: 0px;
+    text-align: center;
+  }
+  .text-skills {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-column {
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
 }

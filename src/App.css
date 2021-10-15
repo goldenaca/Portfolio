@@ -1,6 +1,5 @@
 .app-container {
   width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: flex-end;
   font-family: Arial, Helvetica, sans-serif;
@@ -9,8 +8,8 @@
 
 .main-container {
   background: rgba(21, 20, 20, 0.9);
-  height: 100%;
-  max-width: 1100px;
+  width: 1100px;
+  min-height: 100vh;
 }
 
 .triangle-decoration {
@@ -105,16 +104,20 @@
 }
 
 @media (max-width: 900px) {
+  .main-container {
+    background: rgba(21, 20, 20, 0.7);
+  }
   .triangle-decoration {
     display: none;
   }
 
-  .list {
-    justify-content: space-evenly;
-    flex-grow: 3;
+  .link-tag {
+    width: 25%;
   }
 
   .list-element {
-    width: 100px;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
   }
 }

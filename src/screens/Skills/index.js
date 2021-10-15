@@ -19,12 +19,12 @@ function About() {
         <Nav />
         <main className="info-container">
           <p className="skills-title"> ALL ABOUT MY SKILLS</p>
-          <div className="text-skills">
+          <p className="text-skills">
             I consider myself a very curious person who finds it easy to learn,
             and I always seek to optimize my way of working. I am very committed
             to the projects in which I get involved and I seek to improve myself
             day by day as a person and developer.
-          </div>
+          </p>
           <div className="skills-container">
             <ul className="skills-column">
               <h3>Main Skills</h3>

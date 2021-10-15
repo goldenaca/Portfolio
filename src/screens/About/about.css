@@ -33,6 +33,7 @@
   color: aliceblue;
   letter-spacing: 1px;
   font-size: 20px;
+  text-align: center;
 }
 
 .about-icons {
@@ -58,4 +59,31 @@
   flex-direction: column;
   justify-content: space-between;
   height: 80px;
+}
+
+@media (max-width: 900px) {
+  .icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-box {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .info-container {
+    margin: 60px 15px;
+  }
+
+  .title {
+    padding: 0px;
+    text-align: center;
+  }
+  .text {
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 }
