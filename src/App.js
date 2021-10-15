@@ -6,6 +6,9 @@ import Projects from "./screens/Projects";
 import Contact from "./screens/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+setInterval(() => {
+  console.log(window.screen.width + " " + window.screen.height);
+}, 1500);
 function App() {
   return (
     <Router>

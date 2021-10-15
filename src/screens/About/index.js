@@ -44,7 +44,7 @@ function About() {
                 className="a-tag"
                 href="https://www.linkedin.com/in/sebastian-saporiti"
               >
-                <i class="fab fa-linkedin about-icons"></i>
+                <i className="fab fa-linkedin about-icons"></i>
               </a>
               <p className="about-icon-description"> Linkedin profile</p>
             </div>
@@ -53,7 +53,7 @@ function About() {
                 className="a-tag"
                 href="https://drive.google.com/file/d/1hmMa1M4L7HWDldCXNKS4CnvOyRoeYGE2/view?usp=sharing"
               >
-                <i class="fas fa-file-code about-icons"></i>
+                <i className="fas fa-file-code about-icons"></i>
               </a>
               <p className="about-icon-description"> Curriculum</p>
             </div>
