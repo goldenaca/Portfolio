@@ -4,7 +4,7 @@ import projectsImage from "../../images/projects.jfif";
 import Nav from "../../components/Nav";
 import syncImage from "../../images/sync-video.jpg";
 import nidiaImage from "../../images/nidia-web.png";
-import comingSoonImage from "../../images/coming-soon.jpg";
+import marsProjectImage from "../../images/Mars-project.png";
 
 function About() {
   const backgroundImage = {
@@ -38,38 +38,92 @@ function About() {
             </a>
             ). Inside you will find my repository with all my projects.
           </div>
-          <div className="projects-cards-container">
-            <div className="blur-layer-sync">
-              <a href="https://sync-yt-video.herokuapp.com/" className="card">
+          <div className="project-cards-container">
+            <div className="blur-layer">
+              <div className="card">
                 <img className="card-image" src={syncImage} alt=""></img>
-                <p className="card-text">
-                  I made this application to be able to watch videos
-                  synchronized with another person. The application is developed
-                  in react and for the server I use Express and Socket io to
-                  broadcast the events of the player on every room. To deploy
-                  the app I use Express to serve the statics file from the React
-                  build.
-                </p>
-              </a>
+                <ul className="card-list-container">
+                  <li>
+                    ● This project was developed to sync YT videos for multiple
+                    users.
+                  </li>
+                  <li> ● Can handle multiple rooms.</li>
+                  <li>
+                    ● Use Express to serve the static files from the React
+                    build.
+                  </li>
+                  <li>
+                    ● The connection between the users and the server is made
+                    with sockets.
+                  </li>
+                  <li>
+                    ● You can chat with the other users in the room on real
+                    time. room.
+                  </li>
+                  <li>
+                    ● You can search any Youtube video through the google api.
+                  </li>
+                  <li>
+                    ● Used technology: HTML, CSS, Js, ReactJs, NodeJs, Express,
+                    ScoketIo
+                  </li>
+                </ul>
+                <div className="visit-btn-container">
+                  <a
+                    className="visit-btn"
+                    href="https://sync-yt-video.herokuapp.com/"
+                  >
+                    Visit
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="blur-layer-nidia">
-              <a href="https://nidia-website.vercel.app/" className="card">
+            <div className="blur-layer">
+              <div className="card">
                 <img className="card-image" src={nidiaImage} alt=""></img>
-                <p className="card-text">
-                  In this Project, a client who manages cabins in Bariloche
-                  asked me to develop a website where they can advertise the
-                  cabins. For this website I used react which facilitated my
-                  work allowing me to reuse components in the different screens.
-                  The client asked me if the host could be free at first, so I
-                  decided to do the Deploy in Vercel
-                </p>
-              </a>
+                <ul className="card-list-container">
+                  <li>
+                    ● This project was developed to advertise two cabins in
+                    Bariloche.
+                  </li>
+                  <li> ● Use React Router to display different screens.</li>
+                  <li> ● Used technology: HTML, CSS, Js, ReactJs.</li>
+                </ul>
+                <div className="visit-btn-container">
+                  <a
+                    className="visit-btn"
+                    href="https://nidia-website.vercel.app/"
+                  >
+                    Visit
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className="blur-layer-axie">
-              <a href="/projects" className="card">
-                <img className="card-image" src={comingSoonImage} alt=""></img>
-                <p className="card-text"> Cooming soon</p>
-              </a>
+            <div className="blur-layer">
+              <div className="card">
+                <img className="card-image" src={marsProjectImage} alt=""></img>
+                <ul className="card-list-container">
+                  <li>
+                    ● This project was developed to display photos of Mars using
+                    Nasa api.
+                  </li>
+                  <li>● You can filter by: Earth/Sol Date, Rover, Camera.</li>
+                  <li>● You can save the filter settings on local storage. </li>
+                  <li>● Make use of infinite scroll. </li>
+                  <li>● Always shows photos from current date. </li>
+                  <li>
+                    ● Used technology: HTML, CSS, Js, ReactJs, Tailwindcss.
+                  </li>
+                </ul>
+                <div className="visit-btn-container">
+                  <a
+                    className="visit-btn"
+                    href="https://mars-seeker.vercel.app/"
+                  >
+                    Visit
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </main>

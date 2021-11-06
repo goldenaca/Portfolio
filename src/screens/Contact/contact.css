@@ -5,7 +5,7 @@
 
 .contact-title {
   padding-top: 20px;
-  font-size: 32px;
+  font-size: 36px;
   letter-spacing: 2px;
   margin-left: 60px;
   color: rgb(255, 59, 85);
@@ -22,18 +22,19 @@
   display: flex;
 }
 .contact-list p {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 32px;
   padding-left: 30px;
   letter-spacing: 1px;
 }
 .contact-list a {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 32px;
-  padding-left: 30px;
   letter-spacing: 1px;
   text-decoration: none;
   color: aliceblue;
+  overflow: hidden;
+  padding-left: 30px;
 }
 
 .contact-list i {
@@ -49,7 +50,13 @@
     margin: 0;
   }
   .contact-list a {
-    font-size: 18px;
+    padding: 0px;
+    font-size: 20px;
+    color: rgb(255, 200, 192);
+  }
+
+  .contact-list p {
+    font-size: 20px;
   }
   .contact-list li {
     flex-direction: column;

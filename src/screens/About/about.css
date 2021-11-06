@@ -8,14 +8,14 @@
   padding-left: 60px;
   margin-bottom: 15px;
   width: 100%;
-  font-size: 32px;
+  font-size: 36px;
   letter-spacing: 2px;
 }
 
 .text {
   margin-bottom: 120px;
-  letter-spacing: 1px;
-  font-size: 19px;
+  font-size: 25px;
+  line-height: 110%;
 }
 
 .icons-container {
@@ -82,8 +82,9 @@
     text-align: center;
   }
   .text {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 50px;
     text-align: center;
+    line-height: 120%;
   }
 }

@@ -1,5 +1,6 @@
 .app-container {
   width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: flex-end;
   font-family: Arial, Helvetica, sans-serif;
@@ -29,10 +30,9 @@
 }
 
 .list-element {
-  letter-spacing: 3px;
-  font-size: 22px;
+  letter-spacing: 2px;
+  font-size: 26px;
   line-height: 50px;
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(200, 200, 200);
   width: 160px;
   list-style: none;
@@ -117,7 +117,7 @@
 
   .list-element {
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
   }
 }

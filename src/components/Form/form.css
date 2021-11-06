@@ -48,12 +48,14 @@
   border-radius: 50px;
   transition: 0.3s;
   cursor: pointer;
+  margin-bottom: 80px;
 }
 .submit-button:hover {
   transition: 0.3s;
   letter-spacing: 2px;
   color: rgb(30, 30, 30);
   background: rgb(255, 59, 85);
+  box-shadow: 0px 0px 10px rgb(255, 59, 85), 0 0 25px rgb(255, 59, 85);
 }
 
 @media (max-width: 900px) {

@@ -1,7 +1,7 @@
 .text-skills {
-  letter-spacing: 1px;
-  font-size: 19px;
+  font-size: 25px;
   margin-bottom: 40px;
+  line-height: 110%;
 }
 
 .skills-container {
@@ -17,20 +17,21 @@
 .skills-column h3 {
   color: rgb(255, 140, 87);
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
 .skills-column li {
   list-style: none;
   letter-spacing: 1px;
-  font-size: 17px;
+  font-size: 20px;
+  line-height: 100%;
 }
 
 .skills-title {
   color: rgb(255, 140, 87);
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 36px;
   margin-bottom: 15px;
   padding-left: 60px;
 }
@@ -42,7 +43,8 @@
   }
   .text-skills {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 120%;
   }
 
   .skills-container {

@@ -22,12 +22,11 @@ function About() {
           <p className="text">
             Hello ! My name is{" "}
             <span className="color-blue">Sebastian Matias Saporiti</span>, I was
-            born in 1998 and grew up in Bariloche - Argentina. <br /> I
-            graduated from a technical high school ( Escuela Cooperativa Técnica
-            Los Andes ). This gave me the possibility of doing an internship at
-            INVAP where we work on international projects and I had the
-            opportunity to work as a team with several technicians and
-            engineers.
+            born in 1998 and grew up in Bariloche - Argentina. I graduated from
+            a technical high school ( Escuela Cooperativa Técnica Los Andes ).
+            This gave me the possibility of doing an internship at INVAP where
+            we work on international projects and I had the opportunity to work
+            as a team with several technicians and engineers.
           </p>
           <p className="title"> CURRENTLY </p>
           <p className="text">

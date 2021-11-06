@@ -22,17 +22,13 @@ function About() {
           <p className="contact-title">CONTACT INFORMATION</p>
           <ul className="contact-list">
             <li>
-              <i className="fas fa-phone-alt"></i>
-              <p> +54 9 294 469-1027</p>
-            </li>
-            <li>
               <i className="far fa-envelope"></i>
               <p> seba.saporiti@gmail.com</p>
             </li>
             <li>
               <i className="fab fa-linkedin-in"></i>
               <a href="https://www.linkedin.com/in/sebastian-saporiti">
-                https://www.linkedin.com/in/sebastian-saporiti
+                www.linkedin.com/in/sebastian-saporiti
               </a>
             </li>
           </ul>

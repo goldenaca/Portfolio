@@ -31,7 +31,7 @@ function About() {
               <li>HTML</li>
               <li>CSS</li>
               <li>Javascript</li>
-              <li>React</li>
+              <li>ReactJs</li>
             </ul>
             <ul className="skills-column">
               <h3>Other skills</h3>
@@ -39,6 +39,9 @@ function About() {
               <li>Express</li>
               <li>Socket io</li>
               <li>MongoDB</li>
+              <li>Docker</li>
+              <li>Git</li>
+              <li>Tailwindcss</li>
             </ul>
             <ul className="skills-column">
               <h3>Languages</h3>
@@ -55,8 +58,7 @@ function About() {
           </p>
           <p className="skills-title"> TOWARDS THE FUTURE</p>
           <p className="text-skills">
-            I am interested in learning typeScript, React Native, Redux, NextJs,
-            DB SQL and NoSQL.
+            I am interested in learning TypeScript, React Native, Redux, NextJs.
           </p>
         </main>
       </div>
