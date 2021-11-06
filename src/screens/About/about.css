@@ -14,8 +14,9 @@
 
 .text {
   margin-bottom: 120px;
-  font-size: 25px;
-  line-height: 110%;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 1px;
 }
 
 .icons-container {
@@ -85,6 +86,5 @@
     font-size: 18px;
     margin-bottom: 50px;
     text-align: center;
-    line-height: 120%;
   }
 }

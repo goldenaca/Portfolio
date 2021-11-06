@@ -22,13 +22,13 @@
   display: flex;
 }
 .contact-list p {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 32px;
   padding-left: 30px;
   letter-spacing: 1px;
 }
 .contact-list a {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 32px;
   letter-spacing: 1px;
   text-decoration: none;
@@ -36,7 +36,11 @@
   overflow: hidden;
   padding-left: 30px;
 }
-
+.contact-list a:hover {
+  transition: 0.4s;
+  letter-spacing: 1px;
+  color: rgb(255, 203, 203);
+}
 .contact-list i {
   font-size: 32px;
 }
@@ -51,12 +55,12 @@
   }
   .contact-list a {
     padding: 0px;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(255, 200, 192);
   }
 
   .contact-list p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .contact-list li {
     flex-direction: column;

@@ -29,14 +29,14 @@ function About() {
           </div>
           <div className="projects-text">
             Here you can find some of my most relevant projects, but if you want
-            to know more, you can enter my github (
+            to know more, you can enter my{" "}
             <a
               className="git"
               href="https://github.com/goldenaca?tab=repositories"
             >
-              https://github.com/goldenaca?tab=repositories
+              github
             </a>
-            ). Inside you will find my repository with all my projects.
+            . Inside you will find my repository with all my projects.
           </div>
           <div className="project-cards-container">
             <div className="blur-layer">

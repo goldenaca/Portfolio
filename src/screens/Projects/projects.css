@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0px 60px;
+  height: 70px;
 }
 
 .skills-title-container p {
@@ -15,8 +16,9 @@
 }
 
 .projects-text {
-  font-size: 25px;
-  line-height: 110%;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 120%;
   margin-bottom: 80px;
 }
 .skills-title-container a {
@@ -36,6 +38,8 @@
 }
 
 .git {
+  font-weight: bold;
+  text-decoration: none;
   color: rgb(161, 126, 255);
 }
 
@@ -69,9 +73,9 @@
   border-top: 2px solid white;
 }
 .card-list-container li {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .visit-btn-container {
   display: flex;
@@ -144,6 +148,6 @@
   }
 
   .card-list-container li {
-    font-size: 16px;
+    font-size: 14px;
   }
 }

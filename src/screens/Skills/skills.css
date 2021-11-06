@@ -1,7 +1,8 @@
 .text-skills {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 40px;
-  line-height: 110%;
+  line-height: 120%;
+  letter-spacing: 1px;
 }
 
 .skills-container {
@@ -24,7 +25,7 @@
 .skills-column li {
   list-style: none;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 100%;
 }
 
@@ -44,7 +45,6 @@
   .text-skills {
     text-align: center;
     font-size: 18px;
-    line-height: 120%;
   }
 
   .skills-container {
